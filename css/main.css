@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -13,8 +13,10 @@ ul {
 
 a {
   color: #fff;
-  font-size: 1.125rem;
+  font-size: 2rem;
   text-decoration: none;
+  padding: .5em 0;
+  width: 100%;
 }
 
 a.hover {
@@ -24,12 +26,12 @@ a.hover {
 h1 {
   color: #fff;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 header {
   background-color: #d05c2e;
-  border-style: solid;
-  border-color: #a63f38;
+  border: 3px solid #a63f38;
 }
 
 .grains {
@@ -37,15 +39,29 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding: .5em 0;
 }
 
-.nav {
+.links {
+  border-top: 2px solid #a63f38;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
   align-items: center;
+  text-align: center;
+  margin: 0;
 }
 
 img {
   display: block;
-  width: 40px;
+  width: 50px;
+}
+
+.home, .cereals {
+  padding: .5em 0;
+}
+
+li {
+  border-right: 2px solid #a63f38;
+  width: 33.3333%;
 }
