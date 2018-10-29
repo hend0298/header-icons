@@ -6,3 +6,40 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+a.hover {
+  background-color: #a63f38;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+header {
+  background-color: #d05c2e;
+  border-style: solid;
+  border-color: #a63f38;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 40px;
+}
