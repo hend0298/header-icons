@@ -32,10 +32,16 @@ header {
   border-color: #a63f38;
 }
 
-section {
+.grains {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
